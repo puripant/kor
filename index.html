@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <title>ขอ … ได้ไหม ในฐานะ … ก็ได้</title>
   <link href="main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Athiti" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +22,11 @@
       <div class="logo spacer"></div>
     </div>
   </div> -->
-  <div id="joke">ขอ … ได้ไหม ในฐานะ … ก็ได้</div>
+  <div id="joke">
+    ขอ <span id="verb" class="editable">ซ้อมมือ</span> ได้ไหม<br />
+    ในฐานะ <span id="noun" class="editable">ข้าว</span> ก็ได้
+  </div>
+  <div class="button" onclick="changeWord()">เปลี่ยน</div>
 
   <script src="compoundwords.js"></script>
   <script src="wordcut.min.js"></script>

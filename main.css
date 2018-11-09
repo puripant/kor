@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: white;
   display: block;
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Chonburi', sans-serif;
 }
 
 /* #header {
@@ -70,7 +70,7 @@ body {
 #joke {
   width: 100%;
   max-width: 600px;
-  margin: 2em auto;
+  margin: 3em auto 1em;
   text-align: center;
   font-size: 36px;
   line-height: 36px;
@@ -86,4 +86,19 @@ body {
 .highlight {
   background-color: rgb(235, 48, 124);
   color: white;
+}
+.button {
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5em 0;
+  background-color: white;
+  border: 0.5px solid rgb(235, 48, 124);
+  color: rgb(235, 48, 124);
+}
+.button:hover {
+  background-color: rgb(235, 48, 124);
+  border: 0.5px solid rgb(235, 48, 124);
+  color: white;
+  cursor: pointer;
 }
