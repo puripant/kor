@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: white;
+  display: block;
+  font-family: 'Athiti', sans-serif;
+}
+
+/* #header {
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  margin: 0 auto;
+}
+.logos {
+  width: 49%;
+  height: 100px;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+.logo a span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.right {
+  justify-content: flex-end;
+}
+.spacer {
+  width: 10px;
+}
+.link {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  vertical-align: middle;
+}
+.alittlebitleft {
+  margin-left: -4.5px;
+}
+.boonmeelab {
+  background-image: url('images/logo_boonmeelab_small.png');
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 36px;
+}
+.subtitle {
+  font-size: 20px;
+  line-height: 20px;
+} */
+
+#joke {
+  width: 100%;
+  max-width: 600px;
+  margin: 2em auto;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+}
+.editable {
+  border-bottom: 0.5px solid rgb(235, 48, 124);
+  color: rgb(235, 48, 124);
+}
+.edited {
+  border: 0.5px solid rgb(235, 48, 124);
+  color: rgb(235, 48, 124);
+}
+.highlight {
+  background-color: rgb(235, 48, 124);
+  color: white;
+}
