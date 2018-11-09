@@ -3,6 +3,7 @@ body {
   background-color: white;
   display: block;
   font-family: 'Chonburi', sans-serif;
+  text-align: center;
 }
 
 /* #header {
@@ -68,37 +69,26 @@ body {
 } */
 
 #joke {
-  width: 100%;
-  max-width: 600px;
-  margin: 3em auto 1em;
+  margin: 30vh auto 10vh;
   text-align: center;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 9vw;
+  line-height: 9vw;
 }
-.editable {
-  border-bottom: 0.5px solid rgb(235, 48, 124);
+.underline {
+  border-bottom: 1px solid rgb(235, 48, 124);
   color: rgb(235, 48, 124);
-}
-.edited {
-  border: 0.5px solid rgb(235, 48, 124);
-  color: rgb(235, 48, 124);
-}
-.highlight {
-  background-color: rgb(235, 48, 124);
-  color: white;
 }
 .button {
-  width: 100px;
+  display: inline-block;
+  padding: 0.5em;
   text-align: center;
-  margin: 0 auto;
-  padding: 0.5em 0;
+  font-size: 3vw;
+  border: 1px solid rgb(235, 48, 124);
   background-color: white;
-  border: 0.5px solid rgb(235, 48, 124);
   color: rgb(235, 48, 124);
 }
 .button:hover {
   background-color: rgb(235, 48, 124);
-  border: 0.5px solid rgb(235, 48, 124);
   color: white;
   cursor: pointer;
 }
