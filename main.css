@@ -6,15 +6,18 @@ body {
   text-align: center;
 }
 
-/* #header {
-  width: 100%;
-  max-width: 600px;
+#header {
+  /* width: 100%;
+  max-width: 100px;
   height: 100px;
-  margin: 0 auto;
+  margin: 0 auto; */
+  position: absolute;
+  top: 4vw;
+  right: 4vw;
 }
 .logos {
-  width: 49%;
-  height: 100px;
+  /* width: 49%; */
+  /* height: 100px; */
   vertical-align: middle;
   display: inline-flex;
   align-items: center;
@@ -37,10 +40,13 @@ body {
   left: 0;
   z-index: 1;
 }
-.right {
+/* .right {
   justify-content: flex-end;
+} */
+.center {
+  justify-content: center;
 }
-.spacer {
+/* .spacer {
   width: 10px;
 }
 .link {
@@ -49,14 +55,17 @@ body {
   font-weight: 500;
   line-height: 16px;
   vertical-align: middle;
+  text-align: left;
 }
 .alittlebitleft {
   margin-left: -4.5px;
-}
+} */
 .boonmeelab {
-  background-image: url('images/logo_boonmeelab_small.png');
-  width: 50px;
-  height: 50px;
+  background-image: url('logo_boonmeelab_small.png');
+  width: 3vw;
+  height: 3vw;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .title {
@@ -66,7 +75,7 @@ body {
 .subtitle {
   font-size: 20px;
   line-height: 20px;
-} */
+}
 
 #joke {
   margin: 30vh auto 10vh;
