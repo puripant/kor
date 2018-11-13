@@ -4,19 +4,16 @@ wordcut.init();
 const split_words = words
   .map(w => wordcut.cut(w).split("|"))
   .filter(a => a.length == 2);
+// console.log(split_words.length);
 
+const funny_words = split_words
+  .filter(w => nouns.indexOf(w[0]) > -1 && verbs.indexOf(w[1]) > -1);
+// console.log(funny_words);
+
+const noun = document.getElementById("noun");
+const verb = document.getElementById("verb");
 function changeWord() {
-  let found = false;
-  while(!found) {
-    let word = split_words[Math.floor(Math.random()*split_words.length)];
-    console.log(word[0] + ": " + nouns.indexOf(word[0]) + " & " + verbs.indexOf(word[0]));
-    console.log(word[1] + ": " + nouns.indexOf(word[1]) + " & " + verbs.indexOf(word[1]));
-    if (nouns.indexOf(word[0]) > -1 && verbs.indexOf(word[1]) > -1) {
-      let noun = document.getElementById("noun");
-      let verb = document.getElementById("verb");
-      noun.innerHTML = word[0];
-      verb.innerHTML = word[1];
-      found = true;
-    }
-  }
+  let word = funny_words[Math.floor(Math.random()*funny_words.length)];
+  noun.innerHTML = word[0];
+  verb.innerHTML = word[1];
 }
